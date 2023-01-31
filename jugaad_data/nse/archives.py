@@ -78,7 +78,7 @@ class NSEArchives:
 
     def full_bhavcopy_raw(self, dt):
         """Downloads full raw bhavcopy text for a specific date"""
-        
+        raise Exception("Full bhavcopy not supported yet, API has changed since this function was implemented") 
         dd = dt.strftime('%d')
         mm = dt.strftime('%m')
         yyyy = dt.year
